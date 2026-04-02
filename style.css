@@ -250,8 +250,6 @@ header {
 .bnfc-img {
     border-radius: 60px;
     width: 600px;
-    max-width: 100%;
-    height: auto; 
     margin-top: 40px;
     box-shadow: 0 15px 30px rgba(0,0,0,0.1);
     transition: transform 0.5s;
