@@ -248,8 +248,13 @@ header {
 }
 
 .bnfc-img {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
     border-radius: 60px;
-    width: 600px;
+    width: 400px;
+    max-width: 100%; /* Largura máxima é o container */
+    height: auto; 
     margin-top: 40px;
     box-shadow: 0 15px 30px rgba(0,0,0,0.1);
     transition: transform 0.5s;
